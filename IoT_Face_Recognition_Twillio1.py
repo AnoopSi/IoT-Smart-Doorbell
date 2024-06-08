@@ -4,10 +4,10 @@ from twilio.rest import Client
 from time import sleep
 
 # Twilio setup
-account_sid = 'AC06f9e476a6cca0dcc68d3b571632660b'
-auth_token = 'c71247cfd876f2787bfcfa68369f918f'
-twilio_number = '+447893944454'
-destination_number = '+447342953881'
+account_sid = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+auth_token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+twilio_number = 'XXXXXXXXXXXXX'
+destination_number = 'XXXXXXXXXXXXX'
 client = Client(account_sid, auth_token)
 
 def capture_image():
